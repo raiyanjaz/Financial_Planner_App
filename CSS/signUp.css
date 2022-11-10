@@ -1,10 +1,32 @@
 /* Sign Up Page */
 
+
+
 /* Sign Up */
 
-
+body {
 position: relative;
 width: 1440px;
 height: 1024px;
 
 background: #FFFFFF;
+}
+
+/* MYRA */
+
+.myraSign{
+position: absolute;
+left: 8.12%;
+right: 61.32%;
+top: 6.54%;
+bottom: 85.94%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 90px;
+text-align: center;
+
+color: #FFFFFF;
+}
