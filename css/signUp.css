@@ -8,12 +8,12 @@ body {
     position: relative;
     width: 1440px;
     height: 1024px;
-    background: #FFFFFF;
+    background: #66CDAA;
 }
 
-/* MYRA */
+/* MYRAY */
 
-.myraSign{
+.myraySign{
     position: absolute;
     left: 8.12%;
     right: 61.32%;
@@ -27,5 +27,35 @@ body {
     line-height: 90px;
     text-align: center;
 
-    color: #000000;
+    color: #FFFFFF;
+}
+
+/* MYRAY logo*/
+.myrayLogo{
+    position: absolute;
+    left: 3.68%;
+    right: 87.5%;
+    top: 4.2%;
+    bottom: 83.5%;
+
+    background: #FFFFFF;
+}
+
+
+/* MYRAY Overview */
+.myrayOver{
+position: absolute;
+width: 577px;
+height: 498px;
+left: 117px;
+top: 263px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+
+color: #FFFFFF;
+
 }
