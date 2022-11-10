@@ -31,35 +31,49 @@ body {
     right: 40.83%;
     top: 25%;
     bottom: 70.61%;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 48px;
     text-align: center;
+    
     color: #000000;
+}
+
+.MYRAY {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 20%;
+    bottom: 70.61%;
+
+    font-weight: 500;
 }
 
 
 
 
 /* Take Control of Your Spending */
+.phrase {
+    position: absolute;
+    left: 39.79%;
+    right: 39.72%;
+    top: 31.54%;
+    bottom: 64.84%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #000000;
+}
 
 
-position: absolute;
-left: 39.79%;
-right: 39.72%;
-top: 31.54%;
-bottom: 64.84%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-text-align: center;
-
-color: #000000;
 
 
 
