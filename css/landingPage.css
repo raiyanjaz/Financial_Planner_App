@@ -1,16 +1,17 @@
 /*Landing Page CSS*/
 
-/* Landing Page Body */
 body {
-    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Main Frame */
+.landingPageFrame {
+    position: absolute;
     width: 1440px;
     height: 1024px;
     background: #FFFFFF;
-}
-
-/*  */
-p {
-    font-family: 'Poppins';
 }
 
 /* Frame 1 */
@@ -118,6 +119,7 @@ p {
     top: 31.54%;
     bottom: 64.84%;
     
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -166,3 +168,86 @@ p {
         border: 1px solid #D0D0D0;
         border-radius: 10px;
     }
+
+/* Frame 4 */
+.frame4 {
+    position: absolute;
+    width: 640px;
+    height: 49px;
+    left: 400px;
+    top: 476px;
+}
+
+    /* Password Textbox */
+    .passwordTextbox {
+        box-sizing: border-box;
+
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        
+        background: #FAFAFA;
+        border: 1px solid #D0D0D0;
+        border-radius: 10px;
+    }
+
+    /* Password Text */
+    .passwordText {
+        position: absolute;
+        left: 2.03%;
+        right: 80%;
+        top: 20.41%;
+        bottom: 26.53%;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        
+        color: #C4C4C4;
+    }
+
+/* Frame 5 */
+.frame5 {
+    position: absolute;
+    width: 676px;
+    height: 98px;
+    left: 389px;
+    top: 543px;
+}
+
+    /* Log In Button */
+    .logInButton {
+        box-sizing: border-box;
+
+        position: absolute;
+        left: 1.63%;
+        right: 3.7%;
+        top: 15.31%;
+        bottom: 17.35%;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 34px;
+        text-align: center;
+        color: #FAFAFA;
+
+        background: rgba(42, 198, 145, 0.6);
+        border-radius: 10px;
+        border: none;
+    }
+
+    .logInButton:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+
