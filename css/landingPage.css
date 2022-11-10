@@ -8,11 +8,12 @@ body {
     background: #FFFFFF;
 }
 
+/*  */
 p {
     font-family: 'Poppins';
 }
 
-/* frame1 */
+/* Frame 1 */
 .frame1 {
     display: flex;
     flex-direction: row;
@@ -26,76 +27,89 @@ p {
     top: 39px;
 }
 
-/* mainLogo */
-.mainLogo {
-    width: 125px;
-    height: 125px;
-    background: #FFFFFF;
+    /* Main Logo */
+    .mainLogo {
+        width: 125px;
+        height: 125px;
+        background: #FFFFFF;
 
-    /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px -70px;
+    }
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px -70px;
-}
+    /* MYRAY Title */
+    .myrayTitle {
+        width: 440px;
+        height: 77px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 90px;
+        text-align: center;
+        
+        color: #2AC691;
 
-/* myrayTitle */
-.myrayTitle {
-    width: 440px;
-    height: 77px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+/* Frame 2 */
+.frame2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
     
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 90px;
-    text-align: center;
-    
-    color: #2AC691;
-    
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-
-/* Log In to MYRAY Text */
-.logInText {
     position: absolute;
-    left: 40.49%;
-    right: 49.31%;
-    top: 23.93%;
-    bottom: 71.68%;
-    
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    
-    color: #000000;
+    width: 279px;
+    height: 45px;
+    left: 583px;
+    top: 245px;
 }
 
-/* MYRAY text */
-.MYRAY {
-    position: absolute;
-    left: 50.07%;
-    right: 40.35%;
-    top: 23.93%;
-    bottom: 71.78%;
+    /* Log In Text Above Form */
+    .logInText {
+        width: 147px;
+        height: 45px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        
+        color: #000000;
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px -6px;
+    }
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
+    .myrayName {
+        width: 138px;
+        height: 44px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        
+        color: #2AC691;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
     
-    color: #2AC691;
-}
-
 /* Phrase */
 .catchPhrase {
     position: absolute;
@@ -113,296 +127,42 @@ p {
     color: #000000;
 }
 
-/* Username Textbox */
-.userNameBox {
-    box-sizing: border-box;
-
+/* Frame 3 */
+.frame3 {
     position: absolute;
-    left: 27.78%;
-    right: 27.78%;
-    top: 38.48%;
-    bottom: 56.84%;
-    
-    background: #FAFAFA;
-    border: 1px solid #D0D0D0;
-    border-radius: 10px;
+    left: 27.85%;
+    right: 27.71%;
+    top: 38.96%;
+    bottom: 56.35%;
 }
 
-
-
-/* Google Button */
-
-
-box-sizing: border-box;
-
-position: absolute;
-left: 28.75%;
-right: 53.4%;
-top: 77.54%;
-bottom: 17.77%;
-
-background: #1C0C5A;
-border-radius: 10px;
-
-
-/* Password Textbox */
-
-
-box-sizing: border-box;
-
-position: absolute;
-left: 27.78%;
-right: 27.78%;
-top: 46.48%;
-bottom: 48.73%;
-
-background: #FAFAFA;
-border: 1px solid #D0D0D0;
-border-radius: 10px;
-
-
-/* Log In Button */
-
-
-box-sizing: border-box;
-
-position: absolute;
-left: 27.78%;
-right: 27.78%;
-top: 54.49%;
-bottom: 39.06%;
-
-background: rgba(42, 198, 145, 0.6);
-border-radius: 10px;
-
-
-/* Password Text */
-
-
-position: absolute;
-left: 28.75%;
-right: 63.26%;
-top: 47.46%;
-bottom: 50%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #C4C4C4;
-
-
-
-/* OR Text */
-
-
-position: absolute;
-left: 48.82%;
-right: 49.24%;
-top: 72.95%;
-bottom: 24.51%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #C4C4C4;
-
-
-
-/* Need an account? Textbox */
-
-
-position: absolute;
-left: 39.79%;
-right: 36.11%;
-top: 64.26%;
-bottom: 33.2%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #000000;
-
-
-
-/* Username Text */
-
-
-position: absolute;
-left: 28.75%;
-right: 55.42%;
-top: 39.36%;
-bottom: 58.11%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #C4C4C4;
-
-
-
-/* Log In Button Text */
-
-
-position: absolute;
-left: 43.82%;
-right: 43.68%;
-top: 55.96%;
-bottom: 39.06%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 23px;
-line-height: 34px;
-text-align: center;
-
-color: #FAFAFA;
-
-
-
-/* Line 3 */
-
-
-position: absolute;
-left: 46.61%;
-right: 35.52%;
-top: 74.28%;
-bottom: 25.63%;
-
-border: 1px solid #AFAFAF;
-transform: matrix(-1, 0, 0, -1, 0, 0);
-
-
-/* Line 4 */
-
-
-position: absolute;
-left: 70.73%;
-right: 11.47%;
-top: 74.28%;
-bottom: 25.7%;
-
-border: 1px solid #AFAFAF;
-transform: matrix(-1, 0, 0, 1, 0, 0);
-
-
-/* MYRAY Title */
-
-
-position: absolute;
-left: 6.11%;
-right: 63.33%;
-top: 6.15%;
-bottom: 86.33%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 90px;
-text-align: center;
-
-color: #2AC691;
-
-
-
-/* Continue With Google */
-
-
-position: absolute;
-left: 31.81%;
-right: 54.31%;
-top: 78.61%;
-bottom: 18.85%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #FFFFFF;
-
-
-
-/* Google Logo */
-
-
-position: absolute;
-left: 29.72%;
-right: 68.89%;
-top: 78.81%;
-bottom: 19.14%;
-
-background: url(image);
-
-
-/* Github Button */
-
-
-box-sizing: border-box;
-
-position: absolute;
-left: 52.92%;
-right: 29.24%;
-top: 77.64%;
-bottom: 17.68%;
-
-background: #1C0C5A;
-border-radius: 10px;
-
-
-/* Continue With Github */
-
-
-position: absolute;
-left: 55.97%;
-right: 30.14%;
-top: 78.71%;
-bottom: 18.75%;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-
-color: #FFFFFF;
-
-
-
-/* GitHub Logo Background */
-
-
-position: absolute;
-left: 53.82%;
-right: 44.58%;
-top: 79%;
-bottom: 18.75%;
-
-background: url(image);
-
-
-/* GitHub Logo */
-
-
-position: absolute;
-left: 52.99%;
-right: 43.75%;
-top: 79%;
-bottom: 18.75%;
-
-background: url(image);
-
+    /* Username Text */
+    .usernameText {
+        position: absolute;
+        left: 1.88%;
+        right: 62.5%;
+        top: 22.92%;
+        bottom: 22.92%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: #C4C4C4;
+    }
+
+    /* Username Textbox */
+    .usernameTextbox {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        background: #FAFAFA;
+        border: 1px solid #D0D0D0;
+        border-radius: 10px;
+    }
