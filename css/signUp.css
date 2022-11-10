@@ -1,7 +1,5 @@
 /* Sign Up Page */
 
-
-
 /* Sign Up */
 
 body {
@@ -38,7 +36,7 @@ body {
     top: 4.2%;
     bottom: 83.5%;
 
-    background: #FFFFFF;
+    background: #66CDAA;
 }
 
 
@@ -57,5 +55,159 @@ font-size: 36px;
 line-height: 54px;
 
 color: #FFFFFF;
+}
+
+/* Sign Up Screen Background*/
+.smallScreen{
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 915px;
+    top: 106px;
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+/* Logo*/
+.sign_up_logo{
+    position: absolute;
+left: 3.2%;
+right: 81.07%;
+top: 2.34%;
+bottom: 90.52%;
 
 }
+
+/* Login*/
+.login{
+   
+    position: absolute;
+    width: 220px;
+    height: 26px;
+    left: 78px;
+    top: 671px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #66CDAA;
+
+}
+
+/* SIGN UP GROUP*/
+.signUpGroup{
+    position: absolute;
+    width: 287px;
+    height: 64px;
+    left: 44px;
+    top: 590px;
+
+}
+
+/* SIGN UP*/
+.signUp{
+    position: absolute;
+    width: 70px;
+    height: 27px;
+    left: 153px;
+    top: 608px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+/* Sign Up Button*/
+.signUpButton{
+    position: absolute;
+    width: 287px;
+    height: 64px;
+    left: 44px;
+    top: 590px;
+
+    background: #66CDAA;
+    border-radius: 15px;
+}
+
+/* Make Account*/
+.makeAccount{
+    position: absolute;
+    width: 70px;
+    height: 27px;
+    left: 153px;
+    top: 608px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+
+.reEnterPasswordGroup{
+
+    position: absolute;
+    width: 287px;
+    height: 64px;
+    left: 44px;
+    top: 492px;
+    
+}
+
+/* Re-enter password button*/
+.reEnterPasswordButton{
+    
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 287px;
+    height: 64px;
+    left: 44px;
+    top: 492px;
+
+    background: #FFFFFF;
+    border: 2px solid #66CDAA;
+    border-radius: 15px;
+    
+}
+
+/* Re-enter Password */
+.reEnterPassword{
+    position: absolute;
+    width: 173px;
+    height: 27px;
+    left: 66px;
+    top: 511px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #C4C4C4;
+}
+
+
+
+
+
