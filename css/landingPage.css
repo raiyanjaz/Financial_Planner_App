@@ -1,5 +1,9 @@
 /*Landing Page CSS*/
 
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts);
+  }
 
 /* Landing Page Body */
 body {
@@ -9,32 +13,33 @@ body {
     background: #FFFFFF;
 }
 
-/* Logo */
-.mainlogo {
+/* Main Logo */
+.mainLogo {
     position: absolute;
     left: 2.71%;
     right: 88.61%;
     top: 3.81%;
     bottom: 83.98%;
-    background: #2AC691;
+    background: #FFFFFF;
 }
 
 
 /* Log In to MYRAY Text */
-position: absolute;
-left: 40.9%;
-right: 40.83%;
-top: 25%;
-bottom: 70.61%;
+.logInText {
+    position: absolute;
+    left: 40.9%;
+    right: 40.83%;
+    top: 25%;
+    bottom: 70.61%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 48px;
-text-align: center;
-
-color: #000000;
 
 
 
