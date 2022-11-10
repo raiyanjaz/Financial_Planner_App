@@ -1,28 +1,352 @@
 /*Landing Page CSS*/
 
 
-/* Landing Page */
+/* Landing Page Body */
 body {
     position: relative;
     width: 1440px;
     height: 1024px;
-    background: #FAAAAA;
+    background: #FFFFFF;
 }
 
-.main {
+/* Logo */
+.mainlogo {
     position: absolute;
-    left: 8.12%;
-    right: 61.32%;
-    top: 6.54%;
-    bottom: 85.94%;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 90px;
-    text-align: center;
-    
-    color: #FFFFFF;
+    left: 2.71%;
+    right: 88.61%;
+    top: 3.81%;
+    bottom: 83.98%;
+    background: #2AC691;
 }
+
+
+/* Log In to MYRAY Text */
+position: absolute;
+left: 40.9%;
+right: 40.83%;
+top: 25%;
+bottom: 70.61%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Take Control of Your Spending */
+
+
+position: absolute;
+left: 39.79%;
+right: 39.72%;
+top: 31.54%;
+bottom: 64.84%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Username Textbox */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 27.78%;
+right: 27.78%;
+top: 38.48%;
+bottom: 56.84%;
+
+background: #FAFAFA;
+border: 1px solid #D0D0D0;
+border-radius: 10px;
+
+
+/* Google Button */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 28.75%;
+right: 53.4%;
+top: 77.54%;
+bottom: 17.77%;
+
+background: #1C0C5A;
+border-radius: 10px;
+
+
+/* Password Textbox */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 27.78%;
+right: 27.78%;
+top: 46.48%;
+bottom: 48.73%;
+
+background: #FAFAFA;
+border: 1px solid #D0D0D0;
+border-radius: 10px;
+
+
+/* Log In Button */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 27.78%;
+right: 27.78%;
+top: 54.49%;
+bottom: 39.06%;
+
+background: rgba(42, 198, 145, 0.6);
+border-radius: 10px;
+
+
+/* Password Text */
+
+
+position: absolute;
+left: 28.75%;
+right: 63.26%;
+top: 47.46%;
+bottom: 50%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #C4C4C4;
+
+
+
+/* OR Text */
+
+
+position: absolute;
+left: 48.82%;
+right: 49.24%;
+top: 72.95%;
+bottom: 24.51%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #C4C4C4;
+
+
+
+/* Need an account? Textbox */
+
+
+position: absolute;
+left: 39.79%;
+right: 36.11%;
+top: 64.26%;
+bottom: 33.2%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* Username Text */
+
+
+position: absolute;
+left: 28.75%;
+right: 55.42%;
+top: 39.36%;
+bottom: 58.11%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #C4C4C4;
+
+
+
+/* Log In Button Text */
+
+
+position: absolute;
+left: 43.82%;
+right: 43.68%;
+top: 55.96%;
+bottom: 39.06%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 34px;
+text-align: center;
+
+color: #FAFAFA;
+
+
+
+/* Line 3 */
+
+
+position: absolute;
+left: 46.61%;
+right: 35.52%;
+top: 74.28%;
+bottom: 25.63%;
+
+border: 1px solid #AFAFAF;
+transform: matrix(-1, 0, 0, -1, 0, 0);
+
+
+/* Line 4 */
+
+
+position: absolute;
+left: 70.73%;
+right: 11.47%;
+top: 74.28%;
+bottom: 25.7%;
+
+border: 1px solid #AFAFAF;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* MYRAY Title */
+
+
+position: absolute;
+left: 6.11%;
+right: 63.33%;
+top: 6.15%;
+bottom: 86.33%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 90px;
+text-align: center;
+
+color: #2AC691;
+
+
+
+/* Continue With Google */
+
+
+position: absolute;
+left: 31.81%;
+right: 54.31%;
+top: 78.61%;
+bottom: 18.85%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+
+/* Google Logo */
+
+
+position: absolute;
+left: 29.72%;
+right: 68.89%;
+top: 78.81%;
+bottom: 19.14%;
+
+background: url(image);
+
+
+/* Github Button */
+
+
+box-sizing: border-box;
+
+position: absolute;
+left: 52.92%;
+right: 29.24%;
+top: 77.64%;
+bottom: 17.68%;
+
+background: #1C0C5A;
+border-radius: 10px;
+
+
+/* Continue With Github */
+
+
+position: absolute;
+left: 55.97%;
+right: 30.14%;
+top: 78.71%;
+bottom: 18.75%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+
+
+/* GitHub Logo Background */
+
+
+position: absolute;
+left: 53.82%;
+right: 44.58%;
+top: 79%;
+bottom: 18.75%;
+
+background: url(image);
+
+
+/* GitHub Logo */
+
+
+position: absolute;
+left: 52.99%;
+right: 43.75%;
+top: 79%;
+bottom: 18.75%;
+
+background: url(image);
 
