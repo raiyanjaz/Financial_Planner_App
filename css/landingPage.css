@@ -1,10 +1,5 @@
 /*Landing Page CSS*/
 
-@font-face {
-    font-family: 'Poppins';
-    src: url(../fonts);
-  }
-
 /* Landing Page Body */
 body {
     position: relative;
@@ -17,13 +12,53 @@ p {
     font-family: 'Poppins';
 }
 
-/* Main Logo */
-.mainLogo {
+/* frame1 */
+.frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
     position: absolute;
-    left: 1.74%;
-    right: 89.58%;
-    top: 3.81%;
-    bottom: 83.98%;
+    width: 495px;
+    height: 125px;
+    left: 125px;
+    top: 39px;
+}
+
+/* mainLogo */
+.mainLogo {
+    width: 125px;
+    height: 125px;
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -70px;
+}
+
+/* myrayTitle */
+.myrayTitle {
+    width: 440px;
+    height: 77px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    
+    color: #2AC691;
+    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 
