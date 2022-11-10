@@ -13,26 +13,28 @@ body {
     background: #FFFFFF;
 }
 
+p {
+    font-family: 'Poppins';
+}
+
 /* Main Logo */
 .mainLogo {
     position: absolute;
-    left: 2.71%;
-    right: 88.61%;
+    left: 1.74%;
+    right: 89.58%;
     top: 3.81%;
     bottom: 83.98%;
-    background: #FFFFFF;
 }
 
 
 /* Log In to MYRAY Text */
 .logInText {
     position: absolute;
-    left: 40.9%;
-    right: 40.83%;
-    top: 25%;
-    bottom: 70.61%;
-
-    font-family: 'Poppins';
+    left: 40.49%;
+    right: 49.31%;
+    top: 23.93%;
+    bottom: 71.68%;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -42,28 +44,31 @@ body {
     color: #000000;
 }
 
+/* MYRAY text */
 .MYRAY {
-    position: relative;
-    left: 50%;
-    right: 50%;
-    top: 20%;
-    bottom: 70.61%;
+    position: absolute;
+    left: 50.07%;
+    right: 40.35%;
+    top: 23.93%;
+    bottom: 71.78%;
 
-    font-weight: 500;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    
+    color: #2AC691;
 }
 
-
-
-
-/* Take Control of Your Spending */
-.phrase {
+/* Phrase */
+.catchPhrase {
     position: absolute;
     left: 39.79%;
     right: 39.72%;
     top: 31.54%;
     bottom: 64.84%;
     
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -73,24 +78,21 @@ body {
     color: #000000;
 }
 
-
-
-
-
 /* Username Textbox */
+.userNameBox {
+    box-sizing: border-box;
 
+    position: absolute;
+    left: 27.78%;
+    right: 27.78%;
+    top: 38.48%;
+    bottom: 56.84%;
+    
+    background: #FAFAFA;
+    border: 1px solid #D0D0D0;
+    border-radius: 10px;
+}
 
-box-sizing: border-box;
-
-position: absolute;
-left: 27.78%;
-right: 27.78%;
-top: 38.48%;
-bottom: 56.84%;
-
-background: #FAFAFA;
-border: 1px solid #D0D0D0;
-border-radius: 10px;
 
 
 /* Google Button */
