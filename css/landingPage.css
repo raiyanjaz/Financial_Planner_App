@@ -101,7 +101,6 @@ html, body {
     line-height: 27px;
     text-align: center;
     color: #000000;
-    border: 1px solid black;
 }
 
 /* Form Container */
@@ -150,8 +149,8 @@ html, body {
         .usernameTextbox {
             box-sizing: border-box;
             position: absolute;
-            left: 0.16%;
-            right: -0.16%;
+            left: 0%;
+            right: 0%;
             top: -157.14%;
             bottom: 159.18%;
             background: #FAFAFA;
@@ -179,7 +178,7 @@ html, body {
     width: 676px;
     height: 98px;
     left: 389px;
-    top: 543px; 
+    top: 57.5%; 
 }
     /* Log In Button */
     .logInButton {
@@ -210,15 +209,14 @@ html, body {
 .toSignUp {
     position: absolute;
     left: 39.79%;
-    right: 38.12%;
-    top: 64.26%;
-    bottom: 33.2%;
+    top: 70%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     color: #000000;
+    border: 1px solid black;
 }
     /* Sign Up Link */
     .signUpLink {
