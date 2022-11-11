@@ -1,23 +1,21 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Poppins";
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    height: 100vh;
-    width: 1280px;
-    height: 689px;
+/* Main Frame */
+.dashboard {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
 }
 
 /* Left Side */
 
-.greeLeft{
+.greenLeft{
     position: absolute;
     width: 300px;
     height: 1024px;
@@ -25,4 +23,14 @@ body {
     top: 0px;
 
     background: #66CDAA;
+}
+
+/* myrayLogo */
+
+.logo{
+    position: absolute;
+    left: -95px;
+    top: 18px;
+    width: 70px;
+    height: 70px;
 }
