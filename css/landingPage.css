@@ -21,92 +21,71 @@ html, body {
     flex-direction: row;
     align-items: center;
     padding: 25px;
-
     position: absolute;
     width: 495px;
     height: 125px;
     left: 75px;
-    top: 39px;
 }
-
     /* Main Logo */
     .mainLogo {
         width: 125px;
         height: 125px;
-        background: #FFFFFF;
-
+        background: #FFFFFF;     
         flex: none;
         order: 0;
         flex-grow: 0;
         margin: 0px -70px;
     }
-
     /* MYRAY Title */
     .myrayTitle {
         width: 440px;
         height: 77px;
-        
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
         font-size: 60px;
         line-height: 90px;
         text-align: center;
-        
         color: #2AC691;
-
         flex: none;
         order: 1;
         flex-grow: 0;
     }
 
-/* Frame 2 */
-.frame2 {
+/* Log In Text Above Form */
+.logInText {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    
     position: absolute;
     width: 279px;
     height: 45px;
-    left: 583px;
-    top: 245px;
+    left: 600px;
+    top: 275px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px -6px;
 }
-
-    /* Log In Text Above Form */
-    .logInText {
-        width: 147px;
-        height: 45px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 48px;
-        text-align: center;
-        
-        color: #000000;
-        
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px -6px;
-    }
-
     .myrayName {
         width: 138px;
         height: 44px;
-        
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 48px;
         text-align: center;
-        
         color: #2AC691;
-
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -116,120 +95,96 @@ html, body {
 .catchPhrase {
     position: absolute;
     left: 39.79%;
-    right: 39.72%;
-    top: 31.54%;
-    bottom: 64.84%;
-    
+    right: 39.79%;
+    top: 32.62%;
+    bottom: 63.77%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
     text-align: center;
-    
     color: #000000;
 }
 
-/* Frame 3 */
-.frame3 {
-    position: absolute;
-    left: 27.85%;
-    right: 27.71%;
-    top: 38.96%;
-    bottom: 56.35%;
-}
-
-    /* Username Text */
-    .usernameText {
-        position: absolute;
-        left: 1.88%;
-        right: 62.5%;
-        top: 22.92%;
-        bottom: 22.92%;
-
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-
-        color: #C4C4C4;
-    }
-
-    /* Username Textbox */
-    .usernameTextbox {
-        box-sizing: border-box;
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-
-        background: #FAFAFA;
-        border: 1px solid #D0D0D0;
-        border-radius: 10px;
-    }
-
-/* Frame 4 */
-.frame4 {
+/* Frame 2 */
+.frame2 {
     position: absolute;
     width: 640px;
     height: 49px;
     left: 400px;
     top: 476px;
 }
-
-    /* Password Textbox */
-    .passwordTextbox {
-        box-sizing: border-box;
-
+    /* Place Holder Value in Form */
+    ::placeholder {
         position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-        
-        background: #FAFAFA;
-        border: 1px solid #D0D0D0;
-        border-radius: 10px;
-    }
-
-    /* Password Text */
-    .passwordText {
-        position: absolute;
-        left: 2.03%;
-        right: 80%;
-        top: 20.41%;
-        bottom: 26.53%;
-        
+        left: 1.88%;
+        right: 62.5%;
+        top: 22.92%;
+        bottom: 22.92%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 27px;
-        
         color: #C4C4C4;
     }
+    input {
+        position: absolute;
+        left: 1.88%;
+        right: 62.5%;
+        top: 22.92%;
+        bottom: 22.92%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000;
+    }
+    /* Username Textbox */
+    .usernameTextbox {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0.16%;
+        right: -0.16%;
+        top: -157.14%;
+        bottom: 159.18%;
+        background: #FAFAFA;
+        border: 1px solid #D0D0D0;
+        border-radius: 10px;
+        padding-left: 1.88%;
+    }
+    /* Password Textbox */
+    .passwordTextbox {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #FAFAFA;
+        border: 1px solid #D0D0D0;
+        border-radius: 10px;
+        padding-left: 1.88%;
+    }
 
-/* Frame 5 */
-.frame5 {
+/* Frame 3 */
+.frame3 {
     position: absolute;
     width: 676px;
     height: 98px;
     left: 389px;
-    top: 543px;
+    top: 543px; 
 }
-
     /* Log In Button */
     .logInButton {
         box-sizing: border-box;
-
         position: absolute;
         left: 1.63%;
         right: 3.7%;
         top: 15.31%;
         bottom: 17.35%;
-        
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -237,12 +192,34 @@ html, body {
         line-height: 34px;
         text-align: center;
         color: #FAFAFA;
-
         background: rgba(42, 198, 145, 0.6);
         border-radius: 10px;
         border: none;
     }
-
     .logInButton:hover{
         cursor: pointer;
+        background: #2AC691;
+    }
+
+/* Link to Sign Up Page */
+.toSignUp {
+    position: absolute;
+    left: 39.79%;
+    right: 38.12%;
+    top: 64.26%;
+    bottom: 33.2%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+    /* Sign Up Link */
+    .signUpLink {
+        color: rgba(42, 198, 145, 0.6);
+    }
+    .signUpLink:hover{
+        cursor: pointer;
+        color: #2AC691;
     }
