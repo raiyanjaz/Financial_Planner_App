@@ -49,21 +49,11 @@ body {
     line-height: 48px;
     color: #000000;
 }
-    /* Log In Text Above Form */
-    .logInText {
-        font-family: 'Poppins';
-        font-style: normal;
-        text-align: center;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 48px;
-        color: #000000;
+    /* MYRAY Text */
+    .myrayName {
+        font-weight: 700;
+        color: #66cdaa;
     }
-        .myrayName {
-            font-weight: 700;
-            color: #66cdaa;
-        }
-    
     /* Phrase */
     .catchPhrase {
         width: 100vw;
@@ -81,11 +71,15 @@ body {
 
 /* Form Container */
 .formContainer {
+    border: 1px solid black;
+
     position: absolute;
     width: 320px;
     height: 180px;
-    top: 50%;
-    right: 50%;
+    top: 50vh;
+    right: 50vw;
+
+    text-align: center;
 }
     /* Form Format */
     .logInForm {
