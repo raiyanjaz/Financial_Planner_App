@@ -1,44 +1,29 @@
 /*Landing Page CSS*/
 
-html, body {
+body {
     margin: 0;
     overflow: hidden;
     font-family: "Poppins";
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
 }
 
-/* Main Frame */
-.landingPageFrame {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #FFFFFF;
-}
+/* Main Logo */
+.mainLogo {
 
-/* Frame 1 */
-.frame1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    width: 495px;
+    width: 125px;
     height: 125px;
-    left: 5.21%;
-    top: 2.94%;
+    background: #FFFFFF;    
+
+    display: flex;
+    padding: 20px;
+    gap: 0em;
 }
-    /* Main Logo */
-    .mainLogo {
-        width: 125px;
-        height: 125px;
-        background: #FFFFFF;     
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        margin: 0px -70px;
-    }
+
     /* MYRAY Title */
     .myrayTitle {
-        width: 440px;
-        height: 77px;
+        padding: 20px;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 700;
