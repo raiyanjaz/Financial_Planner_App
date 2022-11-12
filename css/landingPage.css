@@ -73,7 +73,7 @@ body {
     position: absolute;
     width: 320px;
     height: 180px;
-    top: 48vh;
+    top: 50vh;
     right: 50vw;
 
     text-align: center;
@@ -165,9 +165,9 @@ body {
 /* Sign Up Container */
 .toSignUpContainer {
     position: absolute;
-    top: 675px;
-    right: 50%;
-    width: 139px;
+    top: 75%;
+    width: 100vw;
+    text-align: center;
 }
     /* Link to Sign Up Page39.79 */
     .toSignUp {
