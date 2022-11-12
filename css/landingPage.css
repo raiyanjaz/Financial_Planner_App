@@ -22,8 +22,8 @@ html, body {
     position: absolute;
     width: 495px;
     height: 125px;
-    left: 7%;
-    top: 3%;
+    left: 5.21%;
+    top: 2.94%;
 }
     /* Main Logo */
     .mainLogo {
@@ -51,72 +51,68 @@ html, body {
         flex-grow: 0;
     }
 
-/* Log In Text Above Form */
-.logInText {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+/* Log In Text Container */
+.logInTextContainer {
     position: absolute;
-    width: 279px;
-    height: 45px;
-    left: 41.67%;
-    top: 26.86%;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px -6px;
+    width: 139px;
+    height: 90px;
+    right: 50%;
+    top: 30%;
 }
-    .myrayName {
-        width: 138px;
+    /* Log In Text Above Form */
+    .logInText {
+        position: absolute;
+        width: 261px;
+        height: 45px;
+
         font-family: 'Poppins';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 32px;
         line-height: 48px;
         text-align: center;
-        color: #66cdaa;
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        color: #000000;
     }
+        .myrayName {
+            width: 138px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #66cdaa;
+        }
     
-/* Phrase */
-.catchPhrase {
-    position: absolute;
-    left: 40.5%;
-    right: 39.79%;
-    top: 33.62%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #000000;
-}
+    /* Phrase */
+    .catchPhrase {
+        position: absolute;
+        top: 65%;
+        left: -3.60%;
+        width: 274px;
+        height: 45px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
 
 /* Form Container */
 .formContainer {
     position: absolute;
     width: 320px;
-    height: 49px;
+    height: 180px;
     top: 50%;
     right: 50%;
-
 }
     /* Form Format */
     .logInForm {
         position: absolute;
-        width: 640px;
-        height: 49px;
+        width: 200%;
+        height: 27.22%;
     }
         /* Place Holder Value in Form */
         ::placeholder {
@@ -171,23 +167,14 @@ html, body {
             border-radius: 10px;
             padding-left: 1.88%;
         }
-
-/* Frame 3 */
-.frame3 {
-    position: absolute;
-    width: 676px;
-    height: 98px;
-    left: 389px;
-    top: 57.5%; 
-}
     /* Log In Button */
     .logInButton {
         box-sizing: border-box;
         position: absolute;
-        left: 1.63%;
-        right: 3.7%;
-        top: 15.31%;
-        bottom: 17.35%;
+        left: 0%;
+        right: -100%;
+        top: 42.78%;
+        bottom: 0%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
@@ -205,25 +192,34 @@ html, body {
         transition: 0.4s;
     }
 
-/* Link to Sign Up Page */
-.toSignUp {
+/* Sign Up Container */
+.toSignUpContainer {
     position: absolute;
-    left: 39.79%;
-    top: 70%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: #000000;
-    border: 1px solid black;
+    top: 71%;
+    right: 50%;
+    width: 139px;
 }
-    /* Sign Up Link */
-    .signUpLink {
-        color: #66cdaa;
-        text-decoration: none;
+    /* Link to Sign Up Page39.79 */
+    .toSignUp {
+        position: absolute;
+        width: 300px;
+        height: 45px;
+        left: -10%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
     }
-    .signUpLink:hover{
-        cursor: pointer;
-        color: #2AC691;
-    }
+        /* Sign Up Link */
+        .signUpLink {
+            color: #66cdaa;
+            text-decoration: none;
+        }
+        .signUpLink:hover{
+            cursor: pointer;
+            color: #2AC691;
+        }
