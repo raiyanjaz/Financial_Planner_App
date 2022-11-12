@@ -40,7 +40,6 @@ body {
     width: 100vw;
     height: 90px;
     top: 30%;
-    border: 1px solid black;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -67,11 +66,10 @@ body {
     
     /* Phrase */
     .catchPhrase {
+        width: 100vw;
+
         position: absolute;
-        top: 65%;
-        left: -3.60%;
-        width: 274px;
-        height: 45px;
+        top: 62%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
