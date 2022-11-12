@@ -11,7 +11,6 @@ body {
 
 /* Main Logo */
 .mainLogo {
-
     width: 125px;
     height: 125px;
     background: #FFFFFF;    
@@ -20,7 +19,6 @@ body {
     padding: 20px;
     gap: 0em;
 }
-
     /* MYRAY Title */
     .myrayTitle {
         padding: 20px;
@@ -39,33 +37,31 @@ body {
 /* Log In Text Container */
 .logInTextContainer {
     position: absolute;
-    width: 139px;
+    width: 100vw;
     height: 90px;
-    right: 50%;
     top: 30%;
+    border: 1px solid black;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
 }
     /* Log In Text Above Form */
     .logInText {
-        position: absolute;
-        width: 261px;
-        height: 45px;
-
         font-family: 'Poppins';
         font-style: normal;
+        text-align: center;
         font-weight: 400;
         font-size: 32px;
         line-height: 48px;
-        text-align: center;
         color: #000000;
     }
         .myrayName {
-            width: 138px;
-            font-family: 'Poppins';
-            font-style: normal;
             font-weight: 700;
-            font-size: 32px;
-            line-height: 48px;
-            text-align: center;
             color: #66cdaa;
         }
     
