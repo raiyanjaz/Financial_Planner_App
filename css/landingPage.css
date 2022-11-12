@@ -57,9 +57,6 @@ body {
     /* Phrase */
     .catchPhrase {
         width: 100vw;
-
-        position: absolute;
-        top: 62%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
@@ -76,7 +73,7 @@ body {
     position: absolute;
     width: 320px;
     height: 180px;
-    top: 50vh;
+    top: 48vh;
     right: 50vw;
 
     text-align: center;
