@@ -2,9 +2,9 @@
 
 body {
     margin: 0;
+    padding: 0;
     overflow: hidden;
     font-family: "Poppins";
-    border: 1px solid black;
     width: 100vw;
     height: 100vh;
 }
@@ -39,7 +39,7 @@ body {
     position: absolute;
     width: 100vw;
     height: 90px;
-    top: 30%;
+    top: 30vh;
     
     font-family: 'Poppins';
     font-style: normal;
@@ -163,7 +163,7 @@ body {
 /* Sign Up Container */
 .toSignUpContainer {
     position: absolute;
-    top: 75%;
+    top: 72%;
     width: 100vw;
     text-align: center;
 }
