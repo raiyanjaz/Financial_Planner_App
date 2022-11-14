@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+  
 html, body {
     margin: 0;
     height: 100%;
@@ -79,10 +83,8 @@ html, body {
 
 .dashLink{
     position: absolute;
-    left: 15px;
-    right: 81.53%;
+    left: 20px;
     top: 0px;
-    bottom: 79.79%;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -93,28 +95,85 @@ html, body {
     color: #000000;
 }
 
+
 .myExpensesDiv{
     position: absolute;
     width: 240px;
     height: 60px;
     left: 30px;
-    top: 282px;
-
-    background: none;
-    border-radius: 15px;
-}
-
-.myExpensesDiv:hover{
-    background: #FFFFFF;
+    top: 262px;
 }
 
 .myExpensesLink{
     position: absolute;
-    left: 3.61%;
-    right: 81.53%;
-    top: 24.8%;
-    bottom: 72.85%;
-    width: 200px;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #F1E6E6;
+}
+
+.budgetDiv{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 30px;
+    top: 362px;
+}
+
+.budgetLink{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #F1E6E6;
+}
+
+.groupSpendDiv{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 30px;
+    top: 462px;
+}
+
+.groupSpendLink{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: #F1E6E6;
+}
+
+.accountDiv{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 30px;
+    top: 562px;
+}
+
+.accountLink{
+    position: absolute;
+    left: 20px;
+    top: 0px;
 
     font-family: 'Poppins';
     font-style: normal;
