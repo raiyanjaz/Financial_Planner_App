@@ -62,59 +62,130 @@ body {
     border-radius: 25px;
 }
 
-.accountContainer{
-    position: absolute;
-    width: 220px;
-    height: 26px;
-    left: 78px;
-    top: 671px;
+    .accountContainer{
+        position: absolute;
+        width: 220px;
+        height: 26px;
+        left: 78px;
+        top: 671px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
 
-    color: #66CDAA;
+        color: #66CDAA;
 
-}
+    }
 
-.loginLink {
-    color: #66cdaa;
-    text-decoration: none;
-}
-.loginLink:hover{
-    cursor: pointer;
-    color: #2AC691;
-}
+    .loginLink {
+        color: #66cdaa;
+        text-decoration: none;
+    }
+    .loginLink:hover{
+        cursor: pointer;
+        color: #2AC691;
+    }
 
-.smallSignUpContainer{
-    position: absolute;
-    width: 287px;
-    height: 64px;
-    left: 0px;
-    top: 0px;
+    .smallSignUpContainer{
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
 
-    background: #66CDAA;
-    border-radius: 15px;
-}
+        background: #66CDAA;
+        border-radius: 15px;
+    }
 
-.signUp{
-    position: absolute;
-    width: 70px;
-    height: 27px;
-    left: 109px;
-    top: 18px;
+    .signUp{
+        position: absolute;
+        width: 70px;
+        height: 27px;
+        left: 109px;
+        top: 18px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
 
 
-    color: #FFFFFF;
+        color: #FFFFFF;
 
-}
+    }
+
+    .signUpForm {
+        position: absolute;
+        width: 200%;
+        height: 27.22%;
+    }
+
+    .usernameTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .username{
+        position: absolute;
+        width: 94px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+
+    .emailTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .email{
+        position: absolute;
+        width: 58px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
