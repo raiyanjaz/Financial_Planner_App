@@ -9,79 +9,60 @@ body {
     background: #66CDAA;
 }
 
-/* MYRAY */
 
-.myraySign{
-    position: absolute;
-    left: 8.12%;
-    right: 61.32%;
-    top: 6.54%;
-    bottom: 85.94%;
+/* myrayLogo */
 
+.myrayLogo {
+    width: 125px;
+    height: 125px;   
+
+    display: flex;
+    padding: 20px;
+    gap: 0em;
+}
+
+.myrayTitle {
+    padding: 20px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 90px;
     text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.myrayOverview {
+    position: absolute;
+    width: 577px;
+    height: 498px;
+    left: 64px;
+    top: 220px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
 
     color: #FFFFFF;
 }
 
-/* MYRAY logo*/
-.myrayLogo{
-    position: absolute;
-    left: 3.68%;
-    right: 87.5%;
-    top: 4.2%;
-    bottom: 83.5%;
-
-    background: #66CDAA;
-}
-
-
-/* MYRAY Overview */
-.myrayOver{
-position: absolute;
-width: 577px;
-height: 498px;
-left: 117px;
-top: 263px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 54px;
-
-color: #FFFFFF;
-}
-
-/* Sign Up Screen Background*/
-.smallScreen{
+.signUpContainer{
     position: absolute;
     width: 375px;
     height: 812px;
     left: 915px;
     top: 106px;
-    
+
     background: #FFFFFF;
     border-radius: 25px;
 }
 
-/* Logo*/
-.sign_up_logo{
-    position: absolute;
-left: 3.2%;
-right: 81.07%;
-top: 2.34%;
-bottom: 90.52%;
-
-}
-
-/* Login*/
-.login{
-   
+.accountContainer{
     position: absolute;
     width: 220px;
     height: 26px;
@@ -99,115 +80,41 @@ bottom: 90.52%;
 
 }
 
-/* SIGN UP GROUP*/
-.signUpGroup{
+.loginLink {
+    color: #66cdaa;
+    text-decoration: none;
+}
+.loginLink:hover{
+    cursor: pointer;
+    color: #2AC691;
+}
+
+.smallSignUpContainer{
     position: absolute;
     width: 287px;
     height: 64px;
-    left: 44px;
-    top: 590px;
-
-}
-
-/* SIGN UP*/
-.signUp{
-    position: absolute;
-    width: 70px;
-    height: 27px;
-    left: 153px;
-    top: 608px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    color: #FFFFFF;
-}
-
-
-/* Sign Up Button*/
-.signUpButton{
-    position: absolute;
-    width: 287px;
-    height: 64px;
-    left: 44px;
-    top: 590px;
+    left: 0px;
+    top: 0px;
 
     background: #66CDAA;
     border-radius: 15px;
 }
 
-/* Make Account*/
-.makeAccount{
+.signUp{
     position: absolute;
     width: 70px;
     height: 27px;
-    left: 153px;
-    top: 608px;
-    
+    left: 109px;
+    top: 18px;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 27px;
     /* identical to box height */
-    
-    
+
+
     color: #FFFFFF;
+
 }
-
-
-.reEnterPasswordGroup{
-
-    position: absolute;
-    width: 287px;
-    height: 64px;
-    left: 44px;
-    top: 492px;
-    
-}
-
-/* Re-enter password button*/
-.reEnterPasswordButton{
-    
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 287px;
-    height: 64px;
-    left: 44px;
-    top: 492px;
-
-    background: #FFFFFF;
-    border: 2px solid #66CDAA;
-    border-radius: 15px;
-    
-}
-
-/* Re-enter Password */
-.reEnterPassword{
-    position: absolute;
-    width: 173px;
-    height: 27px;
-    left: 66px;
-    top: 511px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    
-    color: #C4C4C4;
-}
-
-
-
-
-
