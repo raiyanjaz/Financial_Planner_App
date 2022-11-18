@@ -131,8 +131,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 0px;
-        top: 0px;
+        left: 40px;
+        top: 200px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -164,8 +164,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 0px;
-        top: 0px;
+        left: 40px;
+        top: 280px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -188,4 +188,79 @@ body {
 
 
         color: #C4C4C4;
+    }
+
+    .passwordTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 40px;
+        top: 360px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .password{
+        position: absolute;
+        width: 88px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+    .reenterPasswordTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 40px;
+        top: 440px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .reenterPassword{
+        position: absolute;
+        width: 173px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+    .signUpButton{
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 40px;
+        top: 520px;
+
+        background: #66CDAA;
+        border-radius: 15px;
     }
