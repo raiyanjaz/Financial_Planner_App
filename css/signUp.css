@@ -131,8 +131,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 40px;
-        top: 200px;
+        left: 45px;
+        top: 225px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -164,8 +164,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 40px;
-        top: 280px;
+        left: 45px;
+        top: 305px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -196,8 +196,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 40px;
-        top: 360px;
+        left: 45px;
+        top: 385px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -228,8 +228,8 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 40px;
-        top: 440px;
+        left: 45px;
+        top: 465px;
 
         background: #FFFFFF;
         border: 2px solid #66CDAA;
@@ -258,9 +258,70 @@ body {
         position: absolute;
         width: 287px;
         height: 64px;
-        left: 40px;
-        top: 520px;
+        left: 45px;
+        top: 555px;
 
         background: #66CDAA;
         border-radius: 15px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FAFAFA;
+        background: #66cdaa;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .SignUpButton:hover{
+        cursor: pointer;
+        background: #2AC691;
+    }
+   
+
+
+
+    ::placeholder {
+        position: absolute;
+        left: 1.88%;
+        right: 62.5%;
+        top: 22.92%;
+        bottom: 22.92%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #C4C4C4;
+    }
+
+    .logo{
+
+        position: absolute;
+        left: 3.2%;
+        right: 81.07%;
+        top: 2.34%;
+        bottom: 90.52%;
+
+    }
+
+    
+    .bigSignUp{
+        position: absolute;
+        width: 276px;
+        height: 71px;
+        left: 50px;
+        top: 129px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 96px;
+        text-align: center;
+
+        color: #66CDAA;
     }
