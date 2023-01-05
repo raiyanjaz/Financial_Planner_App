@@ -20,5 +20,5 @@ from login import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('registration/login/', include('login.urls')),
-    path('registration/signUp/', include('login.urls')),
+    path('registration/login/registration/signUp', views.signUp.as_view()),
 ]
