@@ -1,0 +1,195 @@
+/*Landing Page CSS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Poppins";
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Main Logo */
+.mainLogo {
+    width: 125px;
+    height: 125px;
+    background: #FFFFFF;    
+
+    display: flex;
+    padding: 20px;
+    gap: 0em;
+}
+    /* MYRAY Title */
+    .myrayTitle {
+        padding: 20px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 90px;
+        text-align: center;
+        color: #66cdaa;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+/* Log In Text Container */
+.logInTextContainer {
+    position: absolute;
+    width: 100vw;
+    height: 90px;
+    top: 30vh;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+    /* MYRAY Text */
+    .myrayName {
+        font-weight: 700;
+        color: #66cdaa;
+    }
+    /* Phrase */
+    .catchPhrase {
+        width: 100vw;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+/* Form Container */
+.formContainer {
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    top: 50vh;
+    right: 50vw;
+
+    text-align: center;
+}
+    /* Form Format */
+    .logInForm {
+        position: absolute;
+        width: 200%;
+        height: 27.22%;
+    }
+        /* Place Holder Value in Form */
+        ::placeholder {
+            position: absolute;
+            left: 1.88%;
+            right: 62.5%;
+            top: 22.92%;
+            bottom: 22.92%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #C4C4C4;
+        }
+        input {
+            position: absolute;
+            left: 1.88%;
+            right: 62.5%;
+            top: 22.92%;
+            bottom: 22.92%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+        }
+        /* Username Textbox */
+        .usernameTextbox {
+            box-sizing: border-box;
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: -157.14%;
+            bottom: 159.18%;
+            background: #FAFAFA;
+            border: 1px solid #D0D0D0;
+            border-radius: 10px;
+            padding-left: 1.88%;
+            outline: none;
+        }
+        /* Password Textbox */
+        .passwordTextbox {
+            box-sizing: border-box;
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 0%;
+            background: #FAFAFA;
+            border: 1px solid #D0D0D0;
+            border-radius: 10px;
+            padding-left: 1.88%;
+            outline: none;
+        }
+    /* Log In Button */
+    .logInButton {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: -100%;
+        top: 42.78%;
+        bottom: 0%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        color: #FAFAFA;
+        background: #66cdaa;
+        border-radius: 10px;
+        border: none;
+    }
+    .logInButton:hover{
+        cursor: pointer;
+        background: #2AC691;
+        transition: 0.4s;
+    }
+
+/* Sign Up Container */
+.toSignUpContainer {
+    position: absolute;
+    top: 72%;
+    width: 100vw;
+    text-align: center;
+}
+    /* Link to Sign Up Page39.79 */
+    .toSignUp {
+        position: absolute;
+        width: 300px;
+        height: 45px;
+        left: -10%;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+        /* Sign Up Link */
+        .signUpLink {
+            color: #66cdaa;
+            text-decoration: none;
+        }
+        .signUpLink:hover{
+            cursor: pointer;
+            color: #2AC691;
+        }

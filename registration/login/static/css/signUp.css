@@ -1,0 +1,327 @@
+/* Sign Up Page */
+
+/* Sign Up */
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #66CDAA;
+}
+
+
+/* myrayLogo */
+
+.myrayLogo {
+    width: 125px;
+    height: 125px;   
+
+    display: flex;
+    padding: 20px;
+    gap: 0em;
+}
+
+.myrayTitle {
+    padding: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.myrayOverview {
+    position: absolute;
+    width: 577px;
+    height: 498px;
+    left: 64px;
+    top: 220px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+}
+
+.signUpContainer{
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    left: 915px;
+    top: 106px;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+
+    .accountContainer{
+        position: absolute;
+        width: 220px;
+        height: 26px;
+        left: 78px;
+        top: 671px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+
+        color: #66CDAA;
+
+    }
+
+    .loginLink {
+        color: #66cdaa;
+        text-decoration: none;
+    }
+    .loginLink:hover{
+        cursor: pointer;
+        color: #2AC691;
+    }
+
+    .smallSignUpContainer{
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 0px;
+        top: 0px;
+
+        background: #66CDAA;
+        border-radius: 15px;
+    }
+
+    .signUp{
+        position: absolute;
+        width: 70px;
+        height: 27px;
+        left: 109px;
+        top: 18px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+
+    }
+
+    .signUpForm {
+        position: absolute;
+        width: 200%;
+        height: 27.22%;
+    }
+
+    .usernameTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 45px;
+        top: 225px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .username{
+        position: absolute;
+        width: 94px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+
+    .emailTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 45px;
+        top: 305px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .email{
+        position: absolute;
+        width: 58px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+    .passwordTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 45px;
+        top: 385px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .password{
+        position: absolute;
+        width: 88px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+    .reenterPasswordTextbox{
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 45px;
+        top: 465px;
+
+        background: #FFFFFF;
+        border: 2px solid #66CDAA;
+        border-radius: 15px;
+    }
+
+    .reenterPassword{
+        position: absolute;
+        width: 173px;
+        height: 27px;
+        left: 22px;
+        top: 19px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+
+        color: #C4C4C4;
+    }
+
+    .signUpButton{
+        position: absolute;
+        width: 287px;
+        height: 64px;
+        left: 45px;
+        top: 555px;
+
+        background: #66CDAA;
+        border-radius: 15px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FAFAFA;
+        background: #66cdaa;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .SignUpButton:hover{
+        cursor: pointer;
+        background: #2AC691;
+    }
+   
+
+
+
+    ::placeholder {
+        position: absolute;
+        left: 1.88%;
+        right: 62.5%;
+        top: 22.92%;
+        bottom: 22.92%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #C4C4C4;
+    }
+
+    .logo{
+
+        position: absolute;
+        left: 3.2%;
+        right: 81.07%;
+        top: 2.34%;
+        bottom: 90.52%;
+
+    }
+
+    
+    .bigSignUp{
+        position: absolute;
+        width: 276px;
+        height: 71px;
+        left: 50px;
+        top: 129px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 96px;
+        text-align: center;
+
+        color: #66CDAA;
+    }

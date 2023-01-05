@@ -6,3 +6,7 @@ from django.views import View
 class Index(View):
     def get(self, request):
         return render(request, 'html/landingPage.html')
+    
+class signUp(View):
+    def get(self, request):
+        return render(request, 'html/signUp.html')

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 
 <html>
@@ -5,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title> MYRAY - Welcome </title>
-        <link rel="stylesheet" href="../css/landingPage.css">
+        <link rel="stylesheet" href="{% static 'css/landingPage.css' %}">
         
         <style>
             @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
@@ -14,7 +15,7 @@
 
     <body>
         <div class="mainLogo">
-            <img src="../images/mainLogo.svg" style="width:100%;">
+            <img src="{% static 'images/mainLogo.svg' %}" style="width:100%;">
             <span class="myrayTitle"> MYRAY </span>
         </div>
 
@@ -34,7 +35,7 @@
         </div>
 
         <div class = "toSignUpContainer">
-            Need an account? <a href = "google.com" class = "signUpLink"> Sign up here </a>
+            Need an account? <a href = "signUp.html" class = "signUpLink"> Sign up here </a>
         </div>
     </body>
 </html>
